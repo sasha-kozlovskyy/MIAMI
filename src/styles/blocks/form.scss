@@ -28,7 +28,7 @@
     font-weight: 400;
     line-height: 20px;
     text-align: left;
-    color: #8f99a8;
+    // color: #8f99a8;
 
     @include onBigPhone {
       width: 320px;
@@ -56,13 +56,13 @@
 
     &::placeholder {
       font-family: "Roboto", sans-serif;
-      padding-top: 5px;
       font-size: 14px;
       font-weight: 400;
       line-height: 20px;
       text-align: left;
       color: #8f99a8;
       font-style: normal;
+      box-sizing: border-box;
     }
 
   }
@@ -71,7 +71,8 @@
     height: 144px;
     margin-bottom: 32px;
     resize: none;
-    
+    padding-top: 5px; 
+    padding-left: 10px;
   }
 
   &__button {

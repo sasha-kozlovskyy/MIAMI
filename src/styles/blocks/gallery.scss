@@ -32,6 +32,7 @@
 
   &__photos-marina-palms {
     display: flex;
+    max-width: 1200px;
     justify-content: space-between;
     gap: 24px;
     margin-bottom: 24px;
@@ -39,26 +40,30 @@
 
   &__photo-marina-palms1 {
     height: 131px;
-    width: 50%;
+    width: 40%;
+    flex-grow: 1;
 
     border-radius: 8px;
     object-fit: cover;
 
     @include onDesktop {
-      width: 66.6%;
+      width: 60%;
       height: 256px;
+      flex-grow: 1;
     }
   }
 
   &__photo-marina-palms2 {
     height: 131px;
-    width: 50%;
+    width: 40%;
     border-radius: 8px;
     object-fit: cover;
+    flex-grow: 1;
     
     @include onDesktop {
-      width: 33.3%;
+      width: 30%;
       height: 256px;
+      flex-grow: 1;
     }
   }
 
@@ -83,6 +88,7 @@
   }
 
   &__photos-edition-residence {
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -91,9 +97,10 @@
 
   &__photo-edition-residence1 {
     height: 131px;
-    width: 50%;
+    width: 40%;
     border-radius: 8px;
     object-fit: cover;
+    flex-grow: 1;
 
     @include onDesktop {
       height: 256px;
@@ -102,9 +109,10 @@
 
   &__photo-edition-residence2 {
     height: 131px;
-    width: 50%;
+    width: 40%;
     border-radius: 8px;
     object-fit: cover;
+    flex-grow: 1;
 
     @include onDesktop {
       height: 256px;
@@ -112,6 +120,7 @@
   }
 
   &__photos-faena-house {
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -120,24 +129,28 @@
 
   &__photo-faena-house1 {
     height: 131px;
-    width: 50%;
+    width: 40%;
     border-radius: 8px;
     object-fit: cover;
+    flex-grow: 1;
 
     @include onDesktop {
-      width: 33.3%;
+      width: 30%;
+      flex-grow: 1;
       height: 256px;
     }
   }
 
   &__photo-faena-house2 {
     height: 131px;
-    width: 50%;
+    width: 40%;
     border-radius: 8px;
     object-fit: cover;
+    flex-grow: 1;
 
     @include onDesktop {
-      width: 66.6%;
+      width: 60%;
+      flex-grow: 1;
       height: 256px;
     }
   }
